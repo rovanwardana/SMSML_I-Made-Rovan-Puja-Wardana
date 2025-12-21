@@ -1,0 +1,14 @@
+digest: e9313c75
+name: dataset
+profile: '{"num_rows": 300, "num_elements": 2400}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "gender", "required": true},
+  {"type": "double", "name": "age", "required": true}, {"type": "double", "name":
+  "hypertension", "required": true}, {"type": "double", "name": "heart_disease", "required":
+  true}, {"type": "double", "name": "smoking_history", "required": true}, {"type":
+  "double", "name": "bmi", "required": true}, {"type": "double", "name": "HbA1c_level",
+  "required": true}, {"type": "double", "name": "blood_glucose_level", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "rovan wardana", "mlflow.source.name": "c:\\coding\\SMSML_I
+  Made Rovan Puja Wardana\\Membangun_model\\modelling.py", "mlflow.source.type": "LOCAL",
+  "mlflow.source.git.commit": "d9aa1f2ffef66e835438767b6be60d108afe64b7"}}'
+source_type: code

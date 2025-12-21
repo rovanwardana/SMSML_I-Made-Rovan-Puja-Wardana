@@ -1,0 +1,29 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.19
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 3.1.2
+mlflow_version: 2.19.0
+model_size_bytes: 161938
+model_uuid: 19d20a0da2b64547a873aa12f9df043a
+run_id: f9071ed664c74d07a3fa97a7658f4030
+signature:
+  inputs: '[{"type": "double", "name": "gender", "required": true}, {"type": "double",
+    "name": "age", "required": true}, {"type": "double", "name": "hypertension", "required":
+    true}, {"type": "double", "name": "heart_disease", "required": true}, {"type":
+    "double", "name": "smoking_history", "required": true}, {"type": "double", "name":
+    "bmi", "required": true}, {"type": "double", "name": "HbA1c_level", "required":
+    true}, {"type": "double", "name": "blood_glucose_level", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-12-21 19:48:51.709246'

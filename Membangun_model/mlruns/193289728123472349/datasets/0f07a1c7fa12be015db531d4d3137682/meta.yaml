@@ -1,0 +1,10 @@
+digest: b874333a
+name: dataset
+profile: '{"features_shape": [1199, 8], "features_size": 9592, "features_nbytes":
+  38368}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float32\", \"shape\": [-1, 8]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "rovan wardana", "mlflow.source.name": "c:\\coding\\SMSML_I
+  Made Rovan Puja Wardana\\Membangun_model\\modelling.py", "mlflow.source.type": "LOCAL",
+  "mlflow.source.git.commit": "d9aa1f2ffef66e835438767b6be60d108afe64b7"}}'
+source_type: code

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/coding/SMSML_I Made Rovan Puja Wardana/Membangun_model/mlruns/193289728123472349/f9071ed664c74d07a3fa97a7658f4030/artifacts
+end_time: 1766346535982
+entry_point_name: ''
+experiment_id: '193289728123472349'
+lifecycle_stage: active
+run_id: f9071ed664c74d07a3fa97a7658f4030
+run_name: XGBoost_Diabetes_Basic
+run_uuid: f9071ed664c74d07a3fa97a7658f4030
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766346530834
+status: 3
+tags: []
+user_id: rovan wardana
